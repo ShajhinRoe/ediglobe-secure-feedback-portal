@@ -1,0 +1,38 @@
+{
+  "name": "ediglobe-secure-feedback-portal-backend",
+  "version": "1.0.0",
+  "description": "Secure Student Feedback Portal - Backend API",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest --coverage",
+    "lint": "eslint src/"
+  },
+  "keywords": [
+    "feedback",
+    "security",
+    "student-portal",
+    "education"
+  ],
+  "author": "ShajhinRoe",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.0.3",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.0",
+    "express-validator": "^7.0.0",
+    "express-rate-limit": "^6.7.0",
+    "nodemailer": "^6.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "jest": "^29.5.0",
+    "eslint": "^8.40.0"
+  }
+}
